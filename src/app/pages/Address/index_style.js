@@ -1,0 +1,71 @@
+import {StyleSheet} from 'react-native';
+import {Constants} from "@common"
+
+export default StyleSheet.create({
+  container: {
+    flex:1,
+    backgroundColor: "white",
+  },
+  message:{
+      fontSize:14,
+      margin:20,
+  },
+  mapContainer:{
+    flex:1,
+  },
+  map:{
+    flex:1
+  },
+  searchContainer:{
+    flexDirection:"row",
+    borderColor:Constants.APP_COLOR,
+    borderWidth:1,
+    height:50,
+    position:"absolute",
+    top:10,
+    left:20,
+    right:20,
+    backgroundColor:"white",
+    alignItems:"center"
+  },
+  iconSearch:{
+    width:30,
+    height:30,
+    resizeMode:"contain",
+    marginLeft:10
+  },
+  inputSearch:{
+    flex:1,
+    marginLeft:10
+  },
+  btnClearIcon:{
+    width:30,
+    height:30,
+    resizeMode:"contain",
+    marginLeft:5,
+    marginRight:10
+  },
+  content:{
+    backgroundColor:"white"
+  },
+  inputContainer:{
+    marginLeft:20,
+    marginRight:20,
+    marginTop:10,
+    borderColor:Constants.APP_COLOR,
+    borderWidth:1,
+    height:50,
+    justifyContent:"center"
+  },
+  input:{
+    height:40,
+    margin:5,
+    color:Constants.APP_COLOR
+  },
+  bottomView:{
+    height:120,
+    alignItems:"center",
+    flexDirection:"row",
+    justifyContent:"space-between"
+  },
+});

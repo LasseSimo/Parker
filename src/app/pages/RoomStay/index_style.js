@@ -1,0 +1,81 @@
+import {StyleSheet} from 'react-native';
+import {Constants} from "@common"
+
+export default StyleSheet.create({
+  container: {
+    flex:1,
+    backgroundColor: "white",
+  },
+  message:{
+      fontSize:14,
+      margin:20,
+  },
+  content:{
+    backgroundColor:Constants.APP_COLOR
+  },
+  label:{
+    marginTop:10,
+    marginLeft:20,
+    color:"white",
+    fontSize:17,
+    fontWeight:"bold"
+  },
+  inputContainer:{
+    marginLeft:20,
+    marginRight:20,
+    marginTop:2,
+    height:50,
+    justifyContent:"center",
+    backgroundColor:"white"
+  },
+  input:{
+    height:40,
+    margin:5,
+    color:Constants.APP_COLOR
+  },
+  row:{
+    marginTop:7,
+    flexDirection:"row",
+    justifyContent:"space-between",
+    marginLeft:20,
+    marginRight:20,
+    borderBottomWidth:1,
+    borderBottomColor:Constants.APP_COLOR
+  },
+  rowLabel:{
+    flex:1,
+    marginBottom:7,
+    fontSize:15,
+    color:Constants.APP_COLOR
+  },
+  rowValue:{
+    width:130,
+    marginBottom:7,
+    fontSize:15,
+    fontWeight:"bold",
+    color:Constants.APP_COLOR,
+    textAlign:"right"
+  },
+  lastRow:{
+    paddingLeft:20,
+    paddingRight:20,
+    marginTop:7,
+    flexDirection:"row",
+    justifyContent:"space-between",
+    borderBottomWidth:1,
+    borderBottomColor:Constants.APP_COLOR
+  },
+  total:{
+    marginLeft:20,
+    marginRight:20,
+    marginTop:7,
+    flexDirection:"row",
+    justifyContent:"space-between",
+  },
+  bottomView:{
+    height:120,
+    alignItems:"center",
+    flexDirection:"row",
+    justifyContent:"space-between"
+  },
+});
